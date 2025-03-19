@@ -26,7 +26,6 @@ function checkIfAcceptReject() {
             }
         }, 5000);
     });
-
     promise
         .then((result) => {
             console.log("Order accepted:", result);  // Do something when the order is accepted
